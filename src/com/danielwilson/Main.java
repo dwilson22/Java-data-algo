@@ -7,6 +7,8 @@ public class Main {
         int[] intSelectionSortArray = {-100, 20 , 45 , 1, 8, -5500};
         int[] intInsertionSortArray = {-1, 450 , 88 , -856, 200, -5};
         int[] intShellSortArray = {-1, 450 , 88 , -856, 200, -5};
+        int[] intMergeSortArray = {-1, 500 , 88 , -856, 200, -5};
+
 
 
 
@@ -18,5 +20,7 @@ public class Main {
         insertionSort.sort();
         ShellSort shellSort = new ShellSort(intShellSortArray);
         shellSort.sort();
+        MergeSort mergeSort = new MergeSort(intMergeSortArray);
+        mergeSort.sort();
     }
 }
