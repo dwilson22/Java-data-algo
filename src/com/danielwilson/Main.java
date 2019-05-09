@@ -8,6 +8,8 @@ public class Main {
         int[] intInsertionSortArray = {-1, 450 , 88 , -856, 200, -5};
         int[] intShellSortArray = {-1, 450 , 88 , -856, 200, -5};
         int[] intMergeSortArray = {-1, 500 , 88 , -856, 200, -5};
+        int[] intQuickSortArray = {2323, 120 , 88 , -856, 1, -5};
+
 
 
 
@@ -22,5 +24,7 @@ public class Main {
         shellSort.sort();
         MergeSort mergeSort = new MergeSort(intMergeSortArray);
         mergeSort.sort();
+        QuickSort quickSort = new QuickSort(intQuickSortArray);
+        quickSort.sort();
     }
 }
